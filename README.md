@@ -31,7 +31,13 @@ We need a routed with Openwrt https://openwrt.org/ for this project we will use 
 * Configure Auto Assign (optional)
 ![Configure network](/assets/images/zero2.png)
 
-* Add servers to this network. On Ubuntu and Centos install zerotier-cli,
+* On Ubuntu and Centos servers install zerotier-cli,
 ```
 curl -s https://install.zerotier.com | sudo bash
 ```
+```
+zerotier-cli join [your-zerotier-network-ID]
+```
+* Return to zerotier and assign ips to the servers, delete ip assigned by zerotier
+![server 1](/assets/images/zero4.png)
+![server 2](/assets/images/zero3.png)
