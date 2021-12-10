@@ -24,7 +24,8 @@ There is a factory with several printers and two servers on diffrent hosts.
 * WAN two static IP (dont need to know) 
 * ZT zerotier-cli 192.168.1.222 & 192.168.1.233
 
-We need a routed with Openwrt https://openwrt.org/ for this project we will use Xiaomi Mi Router 4c, you can use faster router, but for zpl labels speed is not problem.
+Looking for a router with Openwrt https://openwrt.org/ for this project, we found a Xiaomi Mi Router 4c, you can use faster router, but for zpl labels speed is not problem.
+
 ![xiaomi mi router 4c](/assets/images/xiaomi.png)
 
 
@@ -55,7 +56,7 @@ zerotier-cli join [your-zerotier-network-ID]
 ```
 https://openwrt.org/docs/techref/hardware/list
 ```
-Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example 21.02.1
+Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example version used on this proyect 21.02.1
 
 * Connect router to internet(use WAN connector) Install zerotier on the OpwnWrt Router, ssh to the router and run
 ```
@@ -64,7 +65,7 @@ opkg update
 ```
 opkg install zerotier
 ```
-* Add the router to our zerotier network
+* Add the router to zerotier network
 ```
 rm /etc/config/zerotier
 touch /etc/config/zerotier
