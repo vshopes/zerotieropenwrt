@@ -41,3 +41,25 @@ zerotier-cli join [your-zerotier-network-ID]
 * Return to zerotier and assign ips to the servers, delete ip assigned by zerotier
 ![server 1](/assets/images/zero4.png)
 ![server 2](/assets/images/zero3.png)
+
+## OpenWrt
+* Install OpenWrt on your router, go to 
+```
+https://openwrt.org/docs/techref/hardware/list
+```
+Search your hardware ando follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example 21.02.1
+
+* Install zerotier on the OpwnWrt Router, ssh to the router and run
+```
+opkg update
+opkg install zerotier
+```
+
+
+
+
+
+
+
+
+
