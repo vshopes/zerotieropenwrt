@@ -58,7 +58,7 @@ https://openwrt.org/docs/techref/hardware/list
 ```
 Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example version used on this proyect 21.02.1
 
-* Connect router to internet(use WAN connector) Install zerotier on the OpwnWrt Router, ssh to the router and run
+* Connect OpenWrt router to internet(use WAN port), ssh from a LAN port to the OpenWrt router and run
 ```
 opkg update
 ```
@@ -81,11 +81,11 @@ uci commit zerotier
 ![openwrt router](/assets/images/zero5.png)
 
 
-* Connect to OpenWrt ip(192.168.1.1) open your brouser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, and ***restart router***
+* Connect to OpenWrt ip(192.168.1.1) with web browser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, and ***restart router***
 ![new router ipaddress](/assets/images/openwrt0.png)
 ![new router ipaddress](/assets/images/openwrt01.png)
 
-* Connect to OpenWrt(192.168.1.200) with web browser, create new network with device zt-----, set protocol unmanaged, (no IP).
+* Connect to OpenWrt(192.168.1.200) with web browser, create new network with device zt-----, set protocol unmanaged, (no IP). I put ZTO name.
 ![new ZTO](/assets/images/openwrt1.png)
 
 * Goto devices, select br-lan, open devices selectors and check zt-----.
