@@ -92,9 +92,11 @@ uci commit zerotier
 ![new router ipaddress](/assets/images/openwrt00.png)
 ![add device to bridge](/assets/images/openwrt2.png)
 
-* In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
+* In the factory connect WAN OpenWrt router to the ISP Router, wait for lights, and then connect one OpwnWrt LAN to the ISP Router, (you can do with only one cable but you have to use other network configuration, dont ask me how to do). You can use the other OpenWrt Router LAN ports for your local network as a switch.  
 
-* Now, you can check that everything y working with a pingfrom your servers to every printer (and pc) on your factory network or a ping from a pc in the factory to the servers
+* Now, you can check that everything is working with a ping from your servers to every printer (and pc) on your factory network or you can check connections, doing a ping from a pc in the factory to the servers.
+
+
 
 
 
