@@ -71,9 +71,9 @@ uci commit zerotier
 * Goto zerotier and configure Router, delete ip allow ethernet bridging
 ![openwrt router](/assets/images/zero5.png)
 
-* Goto OpenWrt ip in your brouser, change LAN ip to 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
+* Connect to OpenWrt ip(192.168.1.1) open your brouser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
 ![new router ipaddress](/assets/images/openwrt0.png)
-* Create new network based on zt-----, set as managed, no IP
+* Create new network with device zt-----, set protocol unmanaged, (no IP).
 ![new ZTO](/assets/images/openwrt1.png)
 * Goto devices, select br-lan, open devices selectors and check zt-----.
 ![add device to bridge](/assets/images/openwrt2.png)
