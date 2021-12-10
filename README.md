@@ -27,3 +27,6 @@ We need a routed with Openwrt https://openwrt.org/ for this project we will use 
 * Configure network 192.168.1.0/24
 
   ![Configure network](/assets/images/zero1.png)
+
+* Configure Auto Assign (optional)
+![Configure network](/assets/images/zero2.png)
