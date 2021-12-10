@@ -26,4 +26,4 @@ We need a routed with Openwrt https://openwrt.org/ for this project we will use 
 * Create a new network
 * Configure network 192.168.1.0/24
 
-  
+  ![Configure network](/assets/images/zero1.png)
