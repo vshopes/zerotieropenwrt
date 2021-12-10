@@ -88,7 +88,7 @@ uci commit zerotier
 
 * In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
 
-* Now, you can ping from your servers to every printer (and pc) on your factory network and from every pc to the servers
+* Now, you can check that everything y working with a pingfrom your servers to every printer (and pc) on your factory network or a ping from a pc in the factory to the servers
 
 
 
