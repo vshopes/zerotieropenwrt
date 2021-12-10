@@ -72,10 +72,11 @@ uci commit zerotier
 ![openwrt router](/assets/images/zero5.png)
 
 * Goto OpenWrt ip in your brouser, change LAN ip to 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
+![new router ipaddress](/assets/images/openwrt0.png)
 * Create new network based on zt-----, set as managed, no IP
 ![new ZTO](/assets/images/openwrt1.png)
 * Goto devices, select br-lan, open devices selectors and check zt-----.
-![new ZTO](/assets/images/openwrt2.png)
+![add device to bridge](/assets/images/openwrt2.png)
 * In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
 * Now you can ping from your servers to every printer (and pc) on your factory network and from every pc to the servers
 
