@@ -71,6 +71,10 @@ uci commit zerotier
 * Goto zerotier and configure Router, delete ip allow ethernet bridging
 ![openwrt router](/assets/images/zero5.png)
 
+* Goto OpenWrt ip in your brouser, change LAN ip to 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
+* Create new network based on zt-----, set as managed, no IP
+* Goto phisical devices and add zt----- to the bridge.
+* In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
 
 
 
