@@ -32,6 +32,6 @@ We need a routed with Openwrt https://openwrt.org/ for this project we will use 
 ![Configure network](/assets/images/zero2.png)
 
 * Add servers to this network. On Ubuntu and Centos install zerotier-cli,
-'''
+```
 curl -s https://install.zerotier.com | sudo bash
-'''
+```
