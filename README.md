@@ -52,8 +52,23 @@ Search your hardware ando follow install instructions, important, you need to in
 * Install zerotier on the OpwnWrt Router, ssh to the router and run
 ```
 opkg update
+```
+```
 opkg install zerotier
 ```
+* Add the router to our zerotier network
+´´´
+rm /etc/config/zerotier
+touch /etc/config/zerotier
+uci set zerotier.openwrt_network=zerotier
+uci add_list zerotier.openwrt_network.join='[your-zerotier-network-ID]'
+uci set zerotier.openwrt_network.enabled='1'
+uci commit zerotier
+/etc/init.d/zerotier restart
+/etc/init.d/firewall restart
+´´´
+* Goto zerotier and configure Router, delete ip allow ethernet bridging
+![openwrt router](/assets/images/zero5.png)
 
 
 
