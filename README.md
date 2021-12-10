@@ -67,6 +67,7 @@ uci commit zerotier
 /etc/init.d/zerotier restart
 /etc/init.d/firewall restart
 ´´´
+
 * Goto zerotier and configure Router, delete ip allow ethernet bridging
 ![openwrt router](/assets/images/zero5.png)
 
