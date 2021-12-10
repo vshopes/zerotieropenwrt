@@ -20,6 +20,9 @@ Assign 5 printers static IPs from 192.168.1.20 to 1920.168.1.25
 Two servers 192.168.1.222 & 192.168.1.223
 
 We need a routed with Openwrt https://openwrt.org/ for this project we will use Xiaomi Mi Router 4c, you can use faster router, but for zpl labels speed is not problem.
+![xiaomi mi router 4c](/assets/images/xiaomi.png)
+
+
 
 ## Zerotier Configuration
 * Create and account if you dont have one
