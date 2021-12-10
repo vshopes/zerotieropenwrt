@@ -24,5 +24,6 @@ We need a routed with Openwrt https://openwrt.org/ for this project we will use 
 ## Zerotier Configuration
 * Create and account if you dont have one
 * Create a new network
-* Configure network 
+* Configure network 192.168.1.0/24
+
   
