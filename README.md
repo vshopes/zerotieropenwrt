@@ -74,7 +74,11 @@ uci commit zerotier
 * Goto OpenWrt ip in your brouser, change LAN ip to 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
 * Create new network based on zt-----, set as managed, no IP
 * Goto phisical devices and add zt----- to the bridge.
+* Restart router
 * In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
+* Now you can ping from your servers to every printer (and pc) on your factory network and from every pc to the servers
+
+
 
 
 
