@@ -1,4 +1,4 @@
-# Zerotier & OpenWrt for Zebra printers (Layer 2 network)
+# Zerotier & OpenWrt for printers(Zebra) (Layer 2 network)
 
 Set remote access to printers(zpl) from different servers using Layer 2 network, without ISP Router modification, thanks to Zerotier and OpenWrt.
 
