@@ -31,7 +31,7 @@ Looking for a router with Openwrt https://openwrt.org/ for this project, we foun
 
 
 ## Zerotier Configuration
-* Create and account if you dont have one
+* Create an account if you dont have one
 * Create a new network
 * Configure network 192.168.1.0/24
 
