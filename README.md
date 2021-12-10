@@ -1,23 +1,28 @@
 # Zerotier & OpenWrt for Zebra printers (Layer 2 network)
 
-Set remote access to printers(zpl) from direferent servers using Layer 2 network, thans to zerotier VPN.
+Set remote access to printers(zpl) from different servers using Layer 2 network, without ISP Router modification, thanks to Zerotier and OpenWrt.
 
-There is a factory with several printers
+There is a factory with several printers and two servers on diffrent hosts.
 
-## IPs
+## IPs 
 
-**ISP Router** 
-IP 192.168.1.1 network 192.168.0/24
-DHCP Server 192.168.1.30 - 192.168.1.199
+**ISP Router** (factory)
+WAN Dynamic IP (dont need to know)
+LAN IP 192.168.1.1 network 192.168.0/24
+LAN DHCP Server 192.168.1.30 - 192.168.1.199
+ZT no zerotier
 
-**OpenWrt Router**
-192.168.1.200
+**OpenWrt Router** (factory)
+LAN 192.168.1.200
+ZT zerotier-cli NoIP
 
-**PRINTERS**
-Assign 5 printers static IPs from 192.168.1.20 to 1920.168.1.25
+**PRINTERS** (factory)
+LAN Assign 5 printers static IPs from 192.168.1.20 to 1920.168.1.25
+ZT no zerotier
 
-**SERVERS**
-Two servers 192.168.1.222 & 192.168.1.223
+**SERVERS** (dedicated servers on two different host)
+WAN two static IP (dont need to know) 
+ZT zerotier-cli 192.168.1.222 & 192.168.1.233
 
 We need a routed with Openwrt https://openwrt.org/ for this project we will use Xiaomi Mi Router 4c, you can use faster router, but for zpl labels speed is not problem.
 ![xiaomi mi router 4c](/assets/images/xiaomi.png)
