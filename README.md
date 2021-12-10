@@ -47,9 +47,9 @@ zerotier-cli join [your-zerotier-network-ID]
 ```
 https://openwrt.org/docs/techref/hardware/list
 ```
-Search your hardware ando follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example 21.02.1
+Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example 21.02.1
 
-* Install zerotier on the OpwnWrt Router, ssh to the router and run
+* Connect router to internet(use WAN connector) Install zerotier on the OpwnWrt Router, ssh to the router and run
 ```
 opkg update
 ```
@@ -71,16 +71,22 @@ uci commit zerotier
 * Goto zerotier and configure Router, delete ip allow ethernet bridging
 ![openwrt router](/assets/images/zero5.png)
 
-* Connect to OpenWrt ip(192.168.1.1) open your brouser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, ***restart router***
+
+* Connect to OpenWrt ip(192.168.1.1) open your brouser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, and ***restart router***
 ![new router ipaddress](/assets/images/openwrt0.png)
 ![new router ipaddress](/assets/images/openwrt01.png)
-* Create new network with device zt-----, set protocol unmanaged, (no IP).
+
+* Connect to OpenWrt(192.168.1.200) with web browser, create new network with device zt-----, set protocol unmanaged, (no IP).
 ![new ZTO](/assets/images/openwrt1.png)
+
 * Goto devices, select br-lan, open devices selectors and check zt-----.
 ![new router ipaddress](/assets/images/openwrt00.png)
 ![add device to bridge](/assets/images/openwrt2.png)
+
 * In your factory connect WAN ethernet to your router, wait for lights, and then connect one lan to the router, (you can do with only one cable but you have to use other openwrt configuration) 
-* Now you can ping from your servers to every printer (and pc) on your factory network and from every pc to the servers
+
+* Now, you can ping from your servers to every printer (and pc) on your factory network and from every pc to the servers
+
 
 
 
