@@ -92,9 +92,9 @@ uci commit zerotier
 ![new router ipaddress](/assets/images/openwrt00.png)
 ![add device to bridge](/assets/images/openwrt2.png)
 
-* In the factory, connect WAN OpenWrt router port to the ISP Router LAN network, turn on OpenWrt router, and wait for lights stop blinking . Connect one OpenWrt router LAN port to the ISP Router LAN network, and you are done. (you can do it with only one cable, but you have to use other network configuration on the OpenWrt router, but please, dont ask me how to do it). You can use the other OpenWrt Router LAN ports for your local network as a switch. You can activate and use OpenWrt wifi, it is on the same bridge.  
+* In the factory, connect WAN OpenWrt router port to the ISP Router LAN network, turn on OpenWrt router, and wait for lights stop blinking . Connect one OpenWrt router LAN port to the ISP Router LAN network, and you are done. (you can do it with only one cable, but you have to use other network configuration on the OpenWrt router, just search on the internet). You can use the other OpenWrt Router LAN ports for your local network as a switch. You can activate and use OpenWrt wifi, it is on the same bridge.  
 
-* Now, you can check that everything is working with a ping from your servers to every printer (and pc) on your factory network or you can check connections, doing a ping from a pc in the factory to the servers. As we use Layer 2 networking, you dont have to open ports, use NAT...., all the machines are on the same LAN network. 
+* Now, you can check that everything is working with a ping from your servers to every printer (and pc) on your factory local network or you can check connections, doing a ping from a pc in the factory to the servers. As we use Layer 2 networking, you dont have to open printer ports, NAT...., all the machines are on the same LAN network. 
  
 
 
