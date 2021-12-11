@@ -88,7 +88,7 @@ uci commit zerotier
 * Connect to OpenWrt(192.168.1.200) with web browser, create new network with device zt-----, set protocol unmanaged, (no IP). I put ZTO name.
 ![new ZTO](/assets/images/openwrt1.png)
 
-* Goto devices, select br-lan, open devices selectors and check zt-----.
+* Goto devices, configure br-lan, open devices selector and check zt-----.
 ![new router ipaddress](/assets/images/openwrt00.png)
 ![add device to bridge](/assets/images/openwrt2.png)
 
