@@ -58,7 +58,7 @@ https://openwrt.org/docs/techref/hardware/list
 ```
 Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, on this proyect we used 21.02.1 version
 
-* Connect OpenWrt router to internet(use WAN port), ssh from a LAN port to the OpenWrt router and run
+* Connect OpenWrt router to internet(use WAN port), ssh from a LAN port to the OpenWrt router(first boot is 192.168.1.1) and run
 ```
 opkg update
 ```
