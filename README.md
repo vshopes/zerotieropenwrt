@@ -40,7 +40,7 @@ Looking for a router to install OpenWrt https://openwrt.org/ for this project, w
 * Configure Auto Assign (optional)
 ![Configure network](/assets/images/zero2.png)
 
-* On Ubuntu and Centos servers install zerotier-cli,
+* On Debian(Ubuntu) and Centos servers install zerotier-cli. (Go to Zerotier if you use windows, mac or android)
 ```
 curl -s https://install.zerotier.com | sudo bash
 ```
