@@ -24,7 +24,7 @@ There is a factory with several printers and two servers on different hosts.
 * WAN two static IP (dont need to know) 
 * ZT zerotier-cli 192.168.1.222 & 192.168.1.233
 
-Looking for a router with Openwrt https://openwrt.org/ for this project, we found a Xiaomi Mi Router 4c, you can use faster router, but for zpl labels 100M speed is not a problem. Take in account that zerotier encryption dont allow top speeds. 
+Looking for a router to install Openwrt https://openwrt.org/ for this project, we found a Xiaomi Mi Router 4c, you can use faster router, but for zpl labels 100M speed is not a problem. Take in account that zerotier encryption dont allow top speeds. 
 
 ![xiaomi mi router 4c](/assets/images/xiaomi.png)
 
