@@ -8,7 +8,7 @@ There is a factory with several printers and two servers on different hosts.
 
 **ISP Router** (factory) dont need to modify anything
 * WAN Dynamic IP (dont need to know)
-* LAN IP 192.168.1.1 network 192.168.0 mask 255.255.255.0
+* LAN IP 192.168.1.1 mask 255.255.255.0
 * LAN DHCP Server 192.168.1.30 - 192.168.1.199
 * ZT no zerotier
 
