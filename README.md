@@ -30,7 +30,7 @@ Looking for a router to install OpenWrt https://openwrt.org/ for this project, w
 
 
 
-## Zerotier Configuration
+## 1. Zerotier Configuration
 * Create an account if you dont have one
 * Create a new network
 * Configure network 192.168.1.0/24
@@ -51,12 +51,12 @@ zerotier-cli join [your-zerotier-network-ID]
 ![server 1](/assets/images/zero4.png)
 ![server 2](/assets/images/zero3.png)
 
-## OpenWrt
+## 2. OpenWrt
 * Install OpenWrt on your router, go to 
 ```
 https://openwrt.org/docs/techref/hardware/list
 ```
-Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, for example version used on this proyect 21.02.1
+Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, on this proyect we used 21.02.1 version
 
 * Connect OpenWrt router to internet(use WAN port), ssh from a LAN port to the OpenWrt router and run
 ```
