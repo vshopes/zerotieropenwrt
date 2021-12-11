@@ -77,11 +77,11 @@ uci commit zerotier
 /etc/init.d/firewall restart
 ```
 
-* Goto zerotier and configure Router, delete ip allow ethernet bridging
+* Go to zerotier and configure Router, delete ip allow ethernet bridging
 ![openwrt router](/assets/images/zero5.png)
 
 
-* Connect to OpenWrt ip(192.168.1.1) with web browser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, and ***restart router***
+* Connect to OpenWrt ip(192.168.1.1) with web browser, configure LAN, ip static 192.168.1.200 network mask 255.255.255.0 disable DHCP, appluy changes and ***restart router***
 ![new router ipaddress](/assets/images/openwrt0.png)
 ![new router ipaddress](/assets/images/openwrt01.png)
 
