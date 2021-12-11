@@ -56,7 +56,7 @@ zerotier-cli join [your-zerotier-network-ID]
 ```
 https://openwrt.org/docs/techref/hardware/list
 ```
-Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, on this proyect we used 21.02.1 version
+Search your hardware and follow install instructions, important, you need to install an openwrt firmware **version** that allows to install zerotier, on this proyect we used 21.02.1 version. We tried with an old router version 10.03.1, and no Zerotier.
 
 * Connect OpenWrt router to internet(use WAN port), ssh from a LAN port to the OpenWrt router(first boot is 192.168.1.1) and run
 ```
